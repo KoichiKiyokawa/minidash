@@ -1,0 +1,21 @@
+{
+  "name": "perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --cache --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "rhodash": "file:.."
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0"
+  }
+}
